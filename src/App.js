@@ -7,7 +7,7 @@ import logo from "./logo.svg";
 
 function App() {
   return (
-    <div className="w-full mx-auto p-6 rounded-lg shadow-xl">
+    <div className="w-full h-screen mx-auto p-6 rounded-lg shadow-xl flex flex-col justify-center">
       <h1 className="text-4xl text-bold text-center text-blue-900 mb-4">React Tailwind CSS based Slider</h1>
       <div className="p-4 flex items-center justify-center">
         <Slider>
